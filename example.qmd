@@ -1,0 +1,16 @@
+---
+title: "Open Science Icons Quarto Extension"
+---
+
+| Shortcode                  | Icon   |                                                                                                                       |
+|---------------------------------------------------|--------|-----------------------------------------------------------------------------------------------------------------------|
+| `{{{< osi manuscript >}}}` | {{< osi manuscript >}} | **Manuscript** (author manuscript, not submitted, in preparation).                                                        |
+| `{{{< osi submitted >}}}`  | {{< osi submitted >}}  | **Submitted** manuscript (aka Preprint; submitted author manuscript *prior* to peer-review).                                |
+| `{{{< osi accepted >}}}`   | {{< osi accepted >}}   | **Accepted** manuscript (aka Postprint; accepted author manuscript *after* peer-review, same content as published version). |
+| `{{{< osi published >}}}`  | {{< osi published >}}  | **Published** manuscript (aka Offprint; accepted manuscript with publisher's formatting, same content as postprint).      |
+| `{{{< osi compendium >}}}` | {{< osi compendium >}} | **Research compendium** (data and materials).                                                                             |
+| `{{{< osi prereg >}}}`     | {{< osi prereg >}}     | **Preregistration**.                                                                                                       |
+| `{{{< osi rr >}}}`         | {{< osi rr >}}         | **Registered Report**.                                                                                                     |
+
+
+

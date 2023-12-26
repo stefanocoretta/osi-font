@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'Open-Science-icons';
+  src:  url('../fonts/OpenScienceIcons-Regular.otf');
+  src:  url('../fonts/OpenScienceIcons-Regular.ttf') format('truetype'),
+    url('../fonts/OpenScienceIcons-Regular.woff') format('woff'),
+    url('../fonts/OpenScienceIcons-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.osi {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Open-Science-icons' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  vertical-align: -0.2em;
+  font-size: 1.2rem;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.osi-manuscript:before {
+  content: "\e900";
+  color: #7F7F7F;
+}
+.osi-submitted:before {
+  content: "\e901";
+  color: #7F7F7F;
+}
+.osi-accepted:before {
+  content: "\e902";
+  color: #008300;
+}
+.osi-published:before {
+  content: "\e903";
+  color: #EF7B0B;
+}
+.osi-preprint:before {
+  content: "\e904";
+  color: #7F7F7F;
+}
+.osi-postprint:before {
+  content: "\e905";
+  color: #008300;
+}
+.osi-published-alt:before {
+  content: "\e906";
+  color: #EF7B0B;
+}
+.osi-compendium:before {
+  content: "\e907";
+  color: #0086ce;
+}
+.osi-prereg:before {
+  content: "\e908";
+  color: #6f0f13;
+}
+.osi-rr:before {
+  content: "\e909";
+  color: #6f0f13;
+}
