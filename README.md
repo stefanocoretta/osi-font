@@ -13,7 +13,7 @@ If you're using version control, you will want to check in this directory.
 
 ## Using
 
-Include Open Science Icons with the `{{{osi <icon>}}}` shortcode, where `<icon>` is the icon name.
+Include Open Science Icons with the `{{ osi <icon> }}` shortcode, where `<icon>` is the icon name.
 
 ## Example
 
